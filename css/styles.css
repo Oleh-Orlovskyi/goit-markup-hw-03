@@ -12,8 +12,8 @@
     --darkness-bg-color: #2F303A;
     --white-bg-color: #ffffff;
 
-    --item-job: 3;
-    --marg-job: 30px;
+    --items: 3;
+    --margins: 30px;
      
 }
 
@@ -26,6 +26,9 @@ font-size: 14px;
 line-height: 1.71;
 color: var(--dark-txt-color);
 }
+
+
+
 
 .container {
     width: 1200px;
@@ -51,6 +54,22 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+/*сітка на флексах старт*/
+.card-set {
+    display: flex;
+    flex-wrap: wrap;
+    margin: calc(-1 * var(--margins) / 2);
+    padding-left: 0;
+}
+
+.card-set-item {
+    flex-basis: calc((100% - var(--margins) * var(--items)) / var(--items));
+    margin: calc(var(--margins) / 2);
+}
+
+/*сітка на флексах фініш*/
+
 
 .header-nav {
     display: flex;
@@ -333,19 +352,14 @@ word-spacing: -0.25em;
     margin-bottom: 50px;
 }
 
+
 .our-job {
-display: flex;
-    flex-wrap: wrap;
-margin: calc(-1 * var(--marg-job) / 2);
     
-    padding-left: 0;
 }
 
- .about-job {
-    flex-basis: calc((100% - var(--marg-job) * var(--item-job)) / var(--item-job));
-    margin: calc(var(--marg-job) / 2);
- }
-
+.about-job {
+   
+}
 
 .team
 {
@@ -353,6 +367,7 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.19;
 letter-spacing: 0.03em;
+width: 270px;
 
 }
 
@@ -363,11 +378,15 @@ letter-spacing: 0.03em;
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--gray-txt-color);
+    width: 270px;
 }
 
 .bg-team
 {
-    background-color: var(--white-bg-color)
+    background-color: var(--white-bg-color);
+    --items: 4;
+
+
 }
 
 .our-team {
@@ -375,6 +394,7 @@ letter-spacing: 0.03em;
 background-color: var(--whitness-bg-color);
    
 }
+
 
 .portfolio-btn
 {
