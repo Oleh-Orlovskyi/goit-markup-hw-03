@@ -12,11 +12,9 @@
     --darkness-bg-color: #2F303A;
     --white-bg-color: #ffffff;
 
-    --marg-benefits: 30px;
-    --item-benefits: 2;
-
+    --item-job: 3;
     --marg-job: 30px;
-    --item-job: 2;
+     
 }
 
 
@@ -315,9 +313,8 @@ word-spacing: -0.25em;
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.03em;
-   text-transform: none;
-   color: var(--gray-txt-color);
-    flex-basis: calc((100% - var(--marg-benefits) * var(--item-benefits)) / var(--item-benefits));
+    text-transform: none;
+    color: var(--gray-txt-color);
     margin-right: 30px;
    
 }
@@ -332,19 +329,21 @@ word-spacing: -0.25em;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-background-color: var(--white-bg-color);
+    background-color: var(--white-bg-color);
+    margin-bottom: 50px;
 }
 
 .our-job {
 display: flex;
     flex-wrap: wrap;
-   
-    margin: -15px;
+margin: calc(-1 * var(--marg-job) / 2);
+    
+    padding-left: 0;
 }
 
  .about-job {
-    flex-basis: calc((100% - var(var(--marg-job)) * var(--item-job)) / var(--item-job));
-    margin: 15px;
+    flex-basis: calc((100% - var(--marg-job) * var(--item-job)) / var(--item-job));
+    margin: calc(var(--marg-job) / 2);
  }
 
 
