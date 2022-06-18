@@ -23,6 +23,35 @@ line-height: 1.71;
 color: var(--dark-txt-color);
 }
 
+.container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 2px solid black;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+ }
+
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
 .header-bg
 {
     background-color: var(--white-bg-color);
@@ -30,6 +59,7 @@ color: var(--dark-txt-color);
 
 .logo-header
 {
+    
     font-family: 'Raleway';
     color: var(--blue-txt-color);
     font-weight: 700;
@@ -38,6 +68,8 @@ color: var(--dark-txt-color);
     letter-spacing: 0.03em;
     text-decoration: none;
     word-spacing: -0.25em;
+    outline: 2px solid red;
+   
 }
 
 .logo-header-part-2
@@ -46,6 +78,14 @@ color: var(--dark-txt-color);
     
 }
 
+.nav {
+    display: flex;
+   
+}
+
+.page-nav {
+    margin-left: 93px;
+}
 .button {
     font-weight: 500;
     font-family: inherit;
@@ -81,19 +121,26 @@ position: centr;
 }
 
 .anchor {
-    color: var(--dark-txt-color);
+        display: block;
+            color: var(--dark-txt-color);
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+    margin-right: 50px;
+    outline: 2px solid red;
+   
 }
+
 
 .anchor:hover,
 .anchor:focus
 {
     color: var(--blue-txt-color);
 }
-
+ .item {
+    margin-right: 50px;
+}
 
 .contacts {
     color: var(--gray-txt-color);
@@ -101,6 +148,8 @@ position: centr;
     letter-spacing: 0.02em;
     line-height: 1.14;
     text-decoration: none;
+    /*margin-right: 50px;*/
+    outline: 2px solid red;
 }
 
 
@@ -113,6 +162,8 @@ position: centr;
 
 .no-points {
     list-style: none;
+    display: flex;
+    
 }
 
 .current {
@@ -147,6 +198,7 @@ background-color:var(--darkness-bg-color)
 
 .footer-contacts
 {
+    
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -154,6 +206,7 @@ background-color:var(--darkness-bg-color)
     font-style: normal;
     }
 
+     
 .logo-footer
 {
 font-family: 'Raleway';
@@ -244,7 +297,7 @@ background-color: var(--whitness-bg-color);
 }
 
 .portfolio-bg
-{
+{  
     background-color: var(--white-bg-color);
     border: 1px solid #EEEEEE;
 }
