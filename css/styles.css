@@ -277,6 +277,8 @@ word-spacing: -0.25em;
     padding-bottom: 94px;
 }
 
+
+
 .hero
 
 {
@@ -368,7 +370,8 @@ font-size: 16px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 width: 270px;
-
+padding-top: 30px;
+text-align: center;
 }
 
 .prof
@@ -379,6 +382,10 @@ width: 270px;
     letter-spacing: 0.03em;
     color: var(--gray-txt-color);
     width: 270px;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    text-align: center;
+    
 }
 
 .bg-team
@@ -392,9 +399,13 @@ width: 270px;
 .our-team {
    
 background-color: var(--whitness-bg-color);
-   
+   padding-top: 94px;
 }
 
+.our-team-bg
+{
+        background-color: var(--whitness-bg-color);
+        }
 
 .portfolio-btn
 {
@@ -405,6 +416,10 @@ background-color: var(--whitness-bg-color);
 {  
     background-color: var(--white-bg-color);
     border: 1px solid #EEEEEE;
+}
+
+.portfolio {
+    --items: 9;
 }
 
 .projects
