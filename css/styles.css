@@ -11,6 +11,12 @@
     --blue-bg-color: #2196f3;
     --darkness-bg-color: #2F303A;
     --white-bg-color: #ffffff;
+
+    --marg-benefits: 30px;
+    --item-benefits: 2;
+
+    --marg-job: 30px;
+    --item-job: 2;
 }
 
 
@@ -38,6 +44,7 @@ h3,
 h4,
 p {
     margin: 0;
+    padding: 0;
  }
 
 
@@ -51,6 +58,8 @@ img {
     display: flex;
     align-items: center;
     margin-left: auto;
+    padding-left: 0;
+   
 }
 .header-bg
 {
@@ -67,24 +76,43 @@ img {
     line-height: 1.19;
     letter-spacing: 0.03em;
     text-decoration: none;
-    word-spacing: -0.25em;
-    outline: 2px solid red;
+    word-spacing: -0.29em;
+    
    
 }
 
 .logo-header-part-2
 {
     color: var(--black-txt-color); 
-    
+   
 }
 
 .nav {
     display: flex;
-   
-}
+   margin-left: 0;
+   }
 
 .page-nav {
     margin-left: 93px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    padding-left: 0;
+  
+}
+
+ .item {
+     margin-right: 50px;
+ }
+
+
+/*очищення правого відступу*/
+.page-nav .item:last-child {
+    margin-right: 0px;
+}
+
+/*очищення правого відступу*/
+.header-nav .item-tel:last-child {
+    margin-right: 0px;
 }
 .button {
     font-weight: 500;
@@ -106,6 +134,7 @@ color: var(--white-txt-color);
 .btn-order
 {
 position: centr;
+
   
     background-color: var(--blue-bg-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -121,15 +150,14 @@ position: centr;
 }
 
 .anchor {
-        display: block;
-            color: var(--dark-txt-color);
+    display: block;
+    color: var(--dark-txt-color);
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
-    margin-right: 50px;
-    outline: 2px solid red;
    
+    
 }
 
 
@@ -138,9 +166,7 @@ position: centr;
 {
     color: var(--blue-txt-color);
 }
- .item {
-    margin-right: 50px;
-}
+
 
 .contacts {
     color: var(--gray-txt-color);
@@ -148,8 +174,7 @@ position: centr;
     letter-spacing: 0.02em;
     line-height: 1.14;
     text-decoration: none;
-    /*margin-right: 50px;*/
-    outline: 2px solid red;
+
 }
 
 
@@ -163,6 +188,7 @@ position: centr;
 .no-points {
     list-style: none;
     display: flex;
+    
     
 }
 
@@ -223,9 +249,20 @@ word-spacing: -0.25em;
        color: var(--white-txt-color);
 }
 
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
 .hero
+
 {
-    background-color: var(--darkness-bg-color);
+    padding-top: 200px;
+    padding-bottom: 280px;
+    padding-left: 452px;
+    padding-right: 452px;
+    margin-bottom: 0px;
+  
     color: var(--white-txt-color);
     font-weight: 900;
     font-size: 44px;
@@ -233,14 +270,32 @@ word-spacing: -0.25em;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
+    display: flex;    
+    
+    background-color: var(--darkness-bg-color);
+    
 }
+
+
+/*.our-benefits
+{
+    display: flex;
+    flex-wrap: wrap;
+margin: -15px;
+}*/
+
+
 
 .benefits
 {
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-   
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: calc((100% - var(--marg-benefits) * var(--item-benefits)) / var(--item-benefits));
+    margin: 15px;
+      
 }
 
 .description
@@ -260,6 +315,18 @@ word-spacing: -0.25em;
     letter-spacing: 0.03em;
 background-color: var(--white-bg-color);
 }
+
+.our-job {
+display: flex;
+    flex-wrap: wrap;
+   
+    margin: -15px;
+}
+
+ .about-job {
+    flex-basis: calc((100% - var(var(--marg-job)) * var(--item-job)) / var(--item-job));
+    margin: 15px;
+ }
 
 
 .team
