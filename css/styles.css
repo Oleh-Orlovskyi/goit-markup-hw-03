@@ -36,7 +36,7 @@ color: var(--dark-txt-color);
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    outline: 2px solid black;
+    
 }
 
 h1,
@@ -230,6 +230,9 @@ position: centr;
     letter-spacing: 0.03em;
     color: var(--white-txt-color);
     text-decoration: none;
+    margin-bottom: 9px;
+    margin-left: 0;;
+    list-style: none;
    
 }
 
@@ -245,7 +248,8 @@ position: centr;
 background-color:var(--darkness-bg-color)
 }
 
-.footer-contacts
+.footer-contacts-mail, .footer-contacts-tel
+
 {
     
     font-weight: 400;
@@ -253,8 +257,20 @@ background-color:var(--darkness-bg-color)
     letter-spacing: 0.03em;
     color: var(--whitness-txt-color);
     font-style: normal;
+    list-style: none;
     }
 
+.footer-address
+    {
+padding-left: 0;
+    }
+ .footer-contacts-mail
+ {margin-bottom: 9px;}
+
+ .footer-contacts-tel 
+ {
+    padding-bottom: 60px;
+ }
      
 .logo-footer
 {
@@ -265,11 +281,16 @@ line-height: 1.19;
 letter-spacing: 0.03em;
 text-decoration: none;
 word-spacing: -0.25em;
+margin-bottom: 20px;
 }
 
 .logo-footer-part-2 
 {
        color: var(--white-txt-color);
+}
+
+.section-footer {
+    padding-top: 60px;
 }
 
 .section {
@@ -405,6 +426,7 @@ background-color: var(--whitness-bg-color);
 .our-team-bg
 {
         background-color: var(--whitness-bg-color);
+        padding-bottom: 94px;
         }
 
 .portfolio-btn
