@@ -13,7 +13,7 @@
     --white-bg-color: #ffffff;
 
     --items: 3;
-    --margins: 30px;
+    --margins:30px;
      
 }
 
@@ -61,6 +61,7 @@ img {
     flex-wrap: wrap;
     margin: calc(-1 * var(--margins) / 2);
     padding-left: 0;
+    
 }
 
 .card-set-item {
@@ -281,7 +282,7 @@ color: var(--white-txt-color);
 
 .footer-bg
 {
-width: 1170px;
+
  padding-top: 60px;
  background-color:var(--darkness-bg-color)
  
@@ -414,8 +415,16 @@ width: 1200px;
     margin-right: 0;
 }
 
-.our-team, .about
+.our-team
 {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+}
+
+.about {
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
@@ -423,7 +432,6 @@ width: 1200px;
     background-color: var(--white-bg-color);
     margin-bottom: 50px;
 }
-
 
 .our-job {
     
@@ -460,7 +468,7 @@ text-align: center;
 
 .bg-team
 {
-    background-color: var(--white-bg-color);
+    
     --items: 4;
 
 
@@ -468,17 +476,11 @@ text-align: center;
 
 .our-team {
    
-background-color: var(--whitness-bg-color);
+
    padding-top: 94px;
    
 }
 
-/*.our-team-bg
-{
-        background-color: var(--whitness-bg-color);
-       
-       
-        }*/
 
 .portfolio-btn
 {
@@ -491,7 +493,6 @@ background-color: var(--whitness-bg-color);
     background-color: var(--whitness-bg-color);
     width: 1200px;
    
-        padding-right: 15px;
         margin-left: auto;
         margin-right: auto;
         
