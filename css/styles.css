@@ -76,13 +76,21 @@ img {
     align-items: center;
     margin-left: auto;
     padding-left: 0;
-    mb94
+    border-bottom: 1px solid #ECECEC;
    
+}
+
+.header-nav-cont
+{
+display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding-left: 0;
 }
 .header-bg
 {
     background-color: var(--white-bg-color);
-    border-bottom: 1px solid #ECECEC;
+   
    
 }
 .logo-header
@@ -158,12 +166,17 @@ color: var(--white-txt-color);
 
 .btn-filtr {
     display: block;
-    padding: 8px 22px
+    padding: 8px 22px;
+    
 }
+
+
 
 .btn-order
 {
-position: centr;
+    display: block;
+    position: centr;
+    margin: 0 auto;
 
     background-color: var(--blue-bg-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -255,13 +268,16 @@ position: centr;
 
     display: block;
         flex-direction: column;
+        padding-left: 0;
+        padding-bottom: 60px;
 }
 
 .footer-bg
 {
-
+width: 1170px;
  padding-top: 60px;
  background-color:var(--darkness-bg-color)
+ 
 
 
 }
@@ -328,6 +344,7 @@ margin-bottom: 20px;
     padding-right: 252px;
     padding-left: 252px;
     align-items: center;
+    
   
   
     color: var(--white-txt-color);
@@ -439,20 +456,31 @@ text-align: center;
    
 background-color: var(--whitness-bg-color);
    padding-top: 94px;
+   
 }
 
-.our-team-bg
+/*.our-team-bg
 {
         background-color: var(--whitness-bg-color);
-        padding-bottom: 94px;
        
-        }
+       
+        }*/
 
 .portfolio-btn
 {
     background-color: var(--white-bg-color);
 }
 
+.secbg
+{
+    background-color: var(--whitness-bg-color);
+    width: 1200px;
+   
+        padding-right: 15px;
+        margin-left: auto;
+        margin-right: auto;
+        
+}
 .portfolio-bg
 {  
    
@@ -464,6 +492,7 @@ background-color: var(--whitness-bg-color);
 {
     margin-top: 94px;
     justify-content: center;
+    padding-bottom: 34px;
   
 }
 
