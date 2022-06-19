@@ -83,8 +83,8 @@ img {
 {
     background-color: var(--white-bg-color);
     border-bottom: 1px solid #ECECEC;
+   
 }
-
 .logo-header
 {
     
@@ -157,6 +157,7 @@ color: var(--white-txt-color);
 }
 
 .btn-filtr {
+    display: block;
     padding: 8px 22px
 }
 
