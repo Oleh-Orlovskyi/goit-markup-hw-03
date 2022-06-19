@@ -36,7 +36,7 @@ color: var(--dark-txt-color);
     padding-right: 15px;
     margin-left: auto;
     margin-right: auto;
-    
+   
 }
 
 h1,
@@ -76,11 +76,13 @@ img {
     align-items: center;
     margin-left: auto;
     padding-left: 0;
+    mb94
    
 }
 .header-bg
 {
     background-color: var(--white-bg-color);
+    border-bottom: 1px solid #ECECEC;
 }
 
 .logo-header
@@ -116,11 +118,13 @@ img {
     margin-top: 32px;
     margin-bottom: 32px;
     padding-left: 0;
+    
   
 }
 
  .item {
      margin-right: 50px;
+     
  }
 
 
@@ -133,7 +137,6 @@ img {
 .header-nav .item-tel:last-child {
     margin-right: 0;
 }
-
 
 
 .button {
@@ -153,12 +156,14 @@ background-color: var(--blue-bg-color);
 color: var(--white-txt-color);
 }
 
+.btn-filtr {
+    padding: 8px 22px
+}
+
 .btn-order
 {
 position: centr;
 
-
-  
     background-color: var(--blue-bg-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
@@ -211,9 +216,10 @@ position: centr;
 .no-points {
     list-style: none;
     display: flex;
-    
+  
     
 }
+
 
 .current {
     font-size: 14px;
@@ -233,6 +239,7 @@ position: centr;
     margin-bottom: 9px;
     margin-left: 0;;
     list-style: none;
+    
    
 }
 
@@ -243,9 +250,19 @@ position: centr;
 }
 
 
+.points  {
+
+    display: block;
+        flex-direction: column;
+}
+
 .footer-bg
 {
-background-color:var(--darkness-bg-color)
+
+ padding-top: 60px;
+ background-color:var(--darkness-bg-color)
+
+
 }
 
 .footer-contacts-mail, .footer-contacts-tel
@@ -260,16 +277,15 @@ background-color:var(--darkness-bg-color)
     list-style: none;
     }
 
-.footer-address
-    {
-padding-left: 0;
-    }
+
+
  .footer-contacts-mail
  {margin-bottom: 9px;}
 
  .footer-contacts-tel 
  {
     padding-bottom: 60px;
+    margin-left: 0;
  }
      
 .logo-footer
@@ -282,20 +298,21 @@ letter-spacing: 0.03em;
 text-decoration: none;
 word-spacing: -0.25em;
 margin-bottom: 20px;
+
 }
 
 .logo-footer-part-2 
 {
        color: var(--white-txt-color);
+       
 }
 
-.section-footer {
-    padding-top: 60px;
-}
+
 
 .section {
     
     padding-bottom: 94px;
+  
 }
 
 
@@ -306,11 +323,11 @@ margin-bottom: 20px;
     display: flex;
     flex-wrap: wrap;
     padding-top: 200px;
-    padding-bottom: 280px;
+    padding-bottom: 200px;
     padding-right: 252px;
     padding-left: 252px;
     align-items: center;
-   
+  
   
     color: var(--white-txt-color);
     font-weight: 900;
@@ -427,6 +444,7 @@ background-color: var(--whitness-bg-color);
 {
         background-color: var(--whitness-bg-color);
         padding-bottom: 94px;
+       
         }
 
 .portfolio-btn
@@ -436,19 +454,38 @@ background-color: var(--whitness-bg-color);
 
 .portfolio-bg
 {  
+   
     background-color: var(--white-bg-color);
     border: 1px solid #EEEEEE;
 }
 
-.portfolio {
-    --items: 9;
+.port-list
+{
+    margin-top: 94px;
+    justify-content: center;
+  
 }
+
+.portfolio-item {
+    
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  --items: 9;
+margin-left: 8px;
+
+}
+
 
 .projects
 {
     font-size: 18px;
         line-height: 2.00;
         letter-spacing: 0.06em;
+        padding-bottom: 4px;
+        padding-top: 20px;
+        padding-left: 24px;
+        padding-right: 24px;
        
 }
 
@@ -459,5 +496,8 @@ background-color: var(--whitness-bg-color);
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--gray-txt-color);
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
 

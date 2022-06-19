@@ -16,23 +16,22 @@
 	</head>
 	<body>
 		<!--Хедер-->
-		<header>
-			<div class="container">
-				<nav>
-					<a class="logo-header" href="/">
-						Web
-						<span class="logo-header-part-2">Studio</span>
-					</a>
-					<ul class="no-points">
-						<li><a class="anchor" href="./index.html">Студия</a></li>
-						<li><a class="anchor current" href="./portfolio.html">Портфолио</a></li>
-						<li><a class="anchor" href="">Контакты</a></li>
+		<header class="header-bg">
+			<div class="container header-nav">
+				<a class="logo-header" href="/">
+					Web
+					<span class="logo-header-part-2">Studio</span>
+				</a>
+				<nav class="nav">
+					<ul class="no-points page-nav">
+						<li class="item"><a class="anchor current" href="./index.html">Студия</a></li>
+						<li class="item"><a class="anchor" href="./portfolio.html">Портфолио</a></li>
+						<li class="item"><a class="anchor" href="">Контакты</a></li>
 					</ul>
 				</nav>
-
-				<ul class="no-points">
-					<li><a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-					<li><a class="contacts" href="tel:+380961111111">+38 096 111 11 11</a></li>
+				<ul class="no-points header-nav">
+					<li><a class="contacts item" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+					<li><a class="contacts item-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
 				</ul>
 			</div>
 		</header>
@@ -41,12 +40,12 @@
 			<section class="portfolio-btn">
 				<div class="container">
 					<h2 hidden>Фильтр</h2>
-					<ul class="no-points">
-						<li><button class="button" type="button">Все</button></li>
-						<li><button class="button" type="button">Веб-сайты</button></li>
-						<li><button class="button" type="button">Приложения</button></li>
-						<li><button class="button" type="button">Дизайн</button></li>
-						<li><button class="button" type="button">Маркетинг</button></li>
+					<ul class="no-points port-list">
+						<li class="portfolio-item"><button class="button btn-filtr" type="button">Все</button></li>
+						<li class="portfolio-item"><button class="button btn-filtr" type="button">Веб-сайты</button></li>
+						<li class="portfolio-item"><button class="button btn-filtr" type="button">Приложения</button></li>
+						<li class="portfolio-item"><button class="button btn-filtr" type="button">Дизайн</button></li>
+						<li class="portfolio-item"><button class="button btn-filtr" type="button">Маркетинг</button></li>
 					</ul>
 
 					<h1 hidden>Портфолио</h1>
@@ -119,7 +118,7 @@
 			</section>
 		</main>
 		<!--Футер-->
-		<footer class="footer-bg">
+		<footer class="container footer-bg">
 			<div class="container">
 				<a class="logo-footer" href="/">
 					Web
