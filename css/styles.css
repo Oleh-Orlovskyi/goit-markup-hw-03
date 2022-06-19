@@ -167,6 +167,13 @@ color: var(--white-txt-color);
 .btn-filtr {
     display: block;
     padding: 8px 22px;
+    font-size: 16px;
+        line-height: 1.62;
+    border: none;
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: var(--dark-txt-color)
     
 }
 
@@ -476,6 +483,7 @@ background-color: var(--whitness-bg-color);
 .portfolio-btn
 {
     background-color: var(--white-bg-color);
+    margin-bottom: 94px;
 }
 
 .secbg
@@ -500,6 +508,9 @@ background-color: var(--whitness-bg-color);
     margin-top: 94px;
     justify-content: center;
     padding-bottom: 34px;
+    min-width: 611px;
+    padding-left: 0;
+    padding-right: 0;
   
 }
 
