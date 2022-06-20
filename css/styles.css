@@ -262,7 +262,6 @@ color: var(--white-txt-color);
     letter-spacing: 0.03em;
     color: var(--white-txt-color);
     text-decoration: none;
-    margin-bottom: 9px;
     margin-left: 0;;
     list-style: none;
     
@@ -281,17 +280,19 @@ color: var(--white-txt-color);
     display: block;
         flex-direction: column;
         padding-left: 0;
-        padding-bottom: 60px;
+        
 }
 
 .footer-bg
 {
-
+padding-bottom: 60px;
  padding-top: 60px;
  background-color:var(--darkness-bg-color)
  
+}
 
-
+.footer-item {
+    margin-bottom: 9px;
 }
 
 .footer-contacts-mail, .footer-contacts-tel
@@ -306,17 +307,6 @@ color: var(--white-txt-color);
     list-style: none;
     }
 
-
-
- .footer-contacts-mail
- {margin-bottom: 9px;}
-
- .footer-contacts-tel 
- {
-    padding-bottom: 60px;
-    margin-left: 0;
- }
-     
 .logo-footer
 {
 font-family: 'Raleway';
@@ -379,8 +369,9 @@ padding-bottom: 200px;
 
 .our-benefits
 {
-    margin-top: 115px;
+   /* margin-top: 115px;*/
     padding-left: 0;
+    margin-bottom: 0;
      
 }
 
@@ -418,6 +409,10 @@ padding-bottom: 200px;
     margin-right: 0;
 }
 
+.section-about {
+    padding-bottom: 94px;
+}
+
 .our-team
 {
     font-size: 36px;
@@ -425,6 +420,7 @@ padding-bottom: 200px;
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 50px;
+    
 }
 
 .about {
@@ -470,14 +466,6 @@ text-align: center;
 
 }
 
-.our-team {
-   
-
-   padding-top: 94px;
-   
-}
-
-
 .portfolio-btn
 {
     background-color: var(--white-bg-color);
@@ -487,10 +475,9 @@ text-align: center;
 .secbg
 {
     background-color: var(--whitness-bg-color);
-    width: 1200px;
-   
-        margin-left: auto;
-        margin-right: auto;
+   padding-top: 94px;
+   padding-bottom: 94px;
+     
         
 }
 .portfolio-bg
