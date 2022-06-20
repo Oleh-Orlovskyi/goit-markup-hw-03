@@ -84,7 +84,6 @@ img {
 
 .header-nav-cont
 {
-   /* display: flex;*/
     align-items: center;
     margin-left: auto;
     padding-left: 0;
@@ -311,7 +310,7 @@ font-size: 26px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 text-decoration: none;
-word-spacing: -0.25em;
+word-spacing: -0.29em;
 margin-bottom: 20px;
 
 }
@@ -365,7 +364,6 @@ padding-bottom: 200px;
 
 .our-benefits
 {
-   /* margin-top: 115px;*/
     padding-left: 0;
     margin-bottom: 0;
      
@@ -456,7 +454,7 @@ text-align: center;
 
 .bg-team
 {
-    
+    background-color: var(--white-bg-color);
     --items: 4;
 
 
