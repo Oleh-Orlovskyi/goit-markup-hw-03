@@ -77,14 +77,14 @@ img {
     display: flex;
     align-items: center;
     margin-left: auto;
-    padding-left: 0;
+   
     border-bottom: 1px solid #ECECEC;
    
 }
 
 .header-nav-cont
 {
-display: flex;
+   /* display: flex;*/
     align-items: center;
     margin-left: auto;
     padding-left: 0;
@@ -106,7 +106,8 @@ display: flex;
     letter-spacing: 0.03em;
     text-decoration: none;
     word-spacing: -0.29em;
-    padding-left: 15px;
+    margin-right: 93px;
+    
    
     
    
@@ -124,9 +125,9 @@ display: flex;
    }
 
 .page-nav {
-    margin-left: 93px;
-    margin-top: 32px;
-    margin-bottom: 32px;
+   /* margin-left: 93px;*/
+    /*margin-top: 32px;
+    margin-bottom: 32px;*/
     padding-left: 0;
     
   
@@ -207,6 +208,8 @@ color: var(--white-txt-color);
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+    padding-top: 32px;
+    padding-bottom: 32px;
    
     
 }
@@ -338,6 +341,7 @@ margin-bottom: 20px;
 .section {
     
     padding-bottom: 94px;
+    padding-top: 94px;
   
 }
 
@@ -345,11 +349,8 @@ margin-bottom: 20px;
 background-color: var(--darkness-bg-color);
 padding-top: 200px;
 padding-bottom: 200px;
-width: 1200px;
-   padding-left: 15px;
-   padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
+
+  
 
 }
 
@@ -387,6 +388,7 @@ width: 1200px;
 
 .benefits
 {
+    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -434,13 +436,6 @@ width: 1200px;
     margin-bottom: 50px;
 }
 
-.our-job {
-    
-}
-
-.about-job {
-   
-}
 
 .team
 {
