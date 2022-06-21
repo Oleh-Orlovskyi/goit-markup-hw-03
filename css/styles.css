@@ -125,6 +125,8 @@ img {
 
 .page-nav {
     padding-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
     
   }
 
@@ -366,6 +368,7 @@ padding-bottom: 200px;
 {
     padding-left: 0;
     margin-bottom: 0;
+    margin-top: 0;
      
 }
 
@@ -426,6 +429,11 @@ padding-bottom: 200px;
     margin-bottom: 50px;
 }
 
+.subscribe {
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
 
 .team
 {
@@ -434,8 +442,8 @@ font-size: 16px;
 line-height: 1.19;
 letter-spacing: 0.03em;
 width: 270px;
-padding-top: 30px;
 text-align: center;
+margin-bottom: 10px;
 }
 
 .prof
@@ -446,8 +454,6 @@ text-align: center;
     letter-spacing: 0.03em;
     color: var(--gray-txt-color);
     width: 270px;
-    padding-top: 10px;
-    padding-bottom: 30px;
     text-align: center;
     
 }
